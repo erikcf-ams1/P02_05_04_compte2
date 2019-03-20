@@ -1,9 +1,10 @@
 package practica;
 
 public class Persona implements Comparable<Persona> {
-	protected String nom;
-	protected int edat;
-	protected int alcada;
+
+	public String nom;
+	public int edat;
+	public int alcada;
 
 	public Persona(String nom, int edat, int alcada) {
 		super();
